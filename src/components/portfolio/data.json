@@ -1,0 +1,50 @@
+[
+    {
+      "id": "1",
+      "img":"https://res.cloudinary.com/dsj0x6kfo/image/upload/v1613263891/passwordGenerator.png",
+      "projectName": "Password Generator",
+      "description": "This is an app that allows the user to generate a random password of their preferred length between 8-124 characters long. They choose if they want to include special characters, UPPERCASE letters, and/or numbers. Once the prompt and confirms have been completed, the random password will populate in the password section.",
+      "repoLink": "https://github.com/jasmineteters/passwordGenerator",
+      "deploymentLink": "https://jasmineteters.github.io/passwordGenerator/"
+    },
+    {
+      "id": "2",
+      "img":"https://res.cloudinary.com/dsj0x6kfo/image/upload/v1613263892/WorkDayScheduler.png",
+      "projectName": "Work Day Scheduler",
+      "description": "This is a web app that allows the user to plan a single day. If the time block is red, it means that time is in the past, if it is light blue, it's the current hour, and darker blue is the future. You can schedule in any of the text areas and press the save button on the right. The text will persist after page refresh.",
+      "repoLink": "https://github.com/jasmineteters/calendarHomework",
+      "deploymentLink": "https://jasmineteters.github.io/calendarHomework/"
+    },
+    {
+      "id": "3",
+      "img":"https://res.cloudinary.com/dsj0x6kfo/image/upload/v1613263800/5DayWeatherApp.png",
+      "projectName": "5 Day Weather Forecast",
+      "description": "Web app for getting the 5 day forecast for a chosen location. My responsibilities for this project include designing and building the entire front and back end. Made with JavaScript using API calls, HTML and Bootstrap for design.",
+      "repoLink": "https://github.com/jasmineteters/5DayWeatherApp",
+      "deploymentLink": "https://jasmineteters.github.io/5DayWeatherApp/"
+    },
+    {
+      "id": "4",
+      "img":"https://res.cloudinary.com/dsj0x6kfo/image/upload/v1613263736/ExampleGym.png",
+      "projectName": "Example Gym",
+      "description": "My friend is opening a gym and I wanted to make an example website of how that could look, I utilized a youtube tutorial for certain aspects. Made with HTML, CSS and extensive Bootstrap use.",
+      "repoLink": "https://github.com/jasmineteters/example-gym",
+      "deploymentLink": "https://jasmineteters.github.io/example-gym/"
+    },
+    {
+      "id": "5",
+      "img":"https://res.cloudinary.com/dsj0x6kfo/image/upload/v1613263381/BikesAndBrews.png",
+      "projectName": "Bikes and Brews",
+      "description": "Group Project to develop a web app to source mountain bike trails, paired with a local brewery for a post-ride refreshment. Use your current location or provide your zip code. Click on the trail or brewery for additional information. Functionality made with JavaScript using API calls, HTML and Bootstrap for design.",
+      "repoLink": "https://github.com/jasmineteters/Bikes-and-Brews",
+      "deploymentLink": "https://jasmineteters.github.io/Bikes-and-Brews/"
+    },
+    {
+      "id": "6",
+      "img":"https://res.cloudinary.com/dsj0x6kfo/image/upload/v1613263645/CharacterSheetGenerator.png",
+      "projectName": "Character Sheet Generator",
+      "description": "Developed a mobile-first, user friendly application to build character sheets for Table Top Role Player Games (TTRPG), filling a void that is prevalent within the industry. My responsibilities for this project include designing and creating the entire front end, including 105 user inputted fields, with unique id’s for the back-end to save to the database",
+      "repoLink": "https://github.com/jasmineteters/Character-Sheet-Generator",
+      "deploymentLink": "https://charactersheet-generator.herokuapp.com/"
+    }
+  ]

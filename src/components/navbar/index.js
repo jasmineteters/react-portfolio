@@ -1,17 +1,18 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 
 
 function Navbar() {
   return (
-    <header className='bg-oxfordBlue text-mintCream p-4 shadow-2xl'>
+    <header className='bg-oxfordBlue text-mintCream p-4 pt-2 shadow-2xl'>
       <nav className='flex justify-between'>
         <div className=''>
           <a href='index.html'>
             <img
               src='https://res.cloudinary.com/dsj0x6kfo/image/upload/v1613235278/JTWebDevLogo_vudnkh.png'
               className='h-52 object-contain object-right transform origin-bottom-left hover:-rotate-12 transition duration-300'
-            alt='JT Web Dev Logo'/>
+              alt='JT Web Dev Logo'
+            />
           </a>
         </div>
         <div className='flex'>
@@ -27,17 +28,17 @@ function Navbar() {
               <path
                 strokeLinecap='round'
                 strokeLinejoin='round'
-                strokeWidth='2'
+                strokeWidth='{2}'
                 d='M4 6h16M4 12h16M4 18h16'
               />
             </svg>
           </div>
-          <div id='menu' className='flex flex-col text-right hidden'>
+          <div id='menu' className='flex flex-col text-right '>
             <div className='text-2xl font-thin'>
               <p className='flex'>
-                <a className='p-1' href='index.html'>
+                <Link to='/' className='p-1'>
                   Home
-                </a>
+                </Link>
                 <svg
                   className='w-5 phone:hidden tablet:block'
                   xmlns='http://www.w3.org/2000/svg'
@@ -56,9 +57,9 @@ function Navbar() {
             </div>
             <div className='text-2xl font-thin'>
               <p className='flex'>
-                <a className='p-1' href='portfolio.html'>
+                <Link to='/portfolio' className='p-1'>
                   Portfolio
-                </a>
+                </Link>
                 <svg
                   className='w-5 phone:hidden tablet:block'
                   xmlns='http://www.w3.org/2000/svg'
@@ -76,10 +77,10 @@ function Navbar() {
               </p>
             </div>
             <div className='text-2xl font-thin'>
-              <p className='flex'>
-                <a className='p-1' href='contact.html'>
+              <div className='flex'>
+                <Link to='/contact' className='p-1'>
                   Contact
-                </a>
+                </Link>
                 <svg
                   className='w-5 phone:hidden tablet:block'
                   xmlns='http://www.w3.org/2000/svg'
@@ -88,13 +89,13 @@ function Navbar() {
                   stroke='currentColor'
                 >
                   <path
-                    stroke-linecap='round'
-                    stroke-linejoin='round'
-                    stroke-width='{2}'
+                    strokeLinecap='round'
+                    strokeLinejoin='round'
+                    strokeWidth='{2}'
                     d='M3 19v-8.93a2 2 0 01.89-1.664l7-4.666a2 2 0 012.22 0l7 4.666A2 2 0 0121 10.07V19M3 19a2 2 0 002 2h14a2 2 0 002-2M3 19l6.75-4.5M21 19l-6.75-4.5M3 10l6.75 4.5M21 10l-6.75 4.5m0 0l-1.14.76a2 2 0 01-2.22 0l-1.14-.76'
                   />
                 </svg>
-              </p>
+              </div>
             </div>
           </div>
           <div className='flex flex-col justify-start my-auto'>
