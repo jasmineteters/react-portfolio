@@ -36,10 +36,10 @@ export default function About() {
             <br />
             I just turned 30, which was an eye opening experience as far as how
             I want to spend the rest of my career. My passion for creating and
-            expressing that create part of myself, along with my knack for
+            expressing that part of myself, along with my knack for
             technology is what eventually lead me to coding. I am truly excited
             to spend time doing what I love and to make a living at the same
-            time.
+            time. I really enjoy the mental challenge that this brings.
             <br />
             <br />
             One of my favorite hobbies is riding bikes, whether it's a road bike
