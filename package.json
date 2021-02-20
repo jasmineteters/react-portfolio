@@ -1,5 +1,4 @@
 {
-  "homepage": "http://jasmineteters.github.io/react-portfolio",
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -10,7 +9,6 @@
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.6.3",
     "autoprefixer": "^9.8.6",
-    "gh-pages": "^3.1.0",
     "postcss": "^7.0.35",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -20,8 +18,6 @@
     "web-vitals": "^1.1.0"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build:style": "tailwind build src/styles/index.css -o src/styles/tailwind.css",
     "start": "craco start",
     "build": "craco build",
