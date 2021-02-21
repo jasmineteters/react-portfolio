@@ -1,18 +1,6 @@
 import React, { useState, Component } from 'react';
 import { Link } from 'react-router-dom';
 
-// const burger = document.querySelector('#burger');
-// const menu = document.querySelector('#menu');
-// const x = document.querySelector('#x');
-
-// burger.addEventListener('click', () => {
-//   if (menu.classList.contains('hidden')) {
-//     menu.classList.remove('hidden');
-//     burger.classList.add('hidden');
-//     x.classList.remove('hidden');
-//   }
-// });
-
 class Navbar extends Component {
   state = {
     burgerMenu: '',
@@ -39,13 +27,13 @@ class Navbar extends Component {
       <header className='bg-oxfordBlue text-mintCream p-4 pt-2 shadow-2xl'>
         <nav className='flex justify-between'>
           <div className=''>
-            <a href='index.html'>
+            <Link to="/">
               <img
                 src='https://res.cloudinary.com/dsj0x6kfo/image/upload/v1613235278/JTWebDevLogo_vudnkh.png'
                 className='h-52 object-contain object-right transform origin-bottom-left hover:-rotate-12 transition duration-300'
                 alt='JT Web Dev Logo'
               />
-            </a>
+            </Link>
           </div>
           <div className='flex'>
             <div className='flex flex-col justify-start my-auto '>
