@@ -46,5 +46,13 @@
       "description": "Developed a mobile-first, user friendly application to build character sheets for Table Top Role Player Games (TTRPG), filling a void that is prevalent within the industry. My responsibilities for this project include designing and creating the entire front end, including 105 user inputted fields, with unique id’s for the back-end to save to the database",
       "repoLink": "https://github.com/jasmineteters/Character-Sheet-Generator",
       "deploymentLink": "https://charactersheet-generator.herokuapp.com/"
+    },
+    {
+      "id": "7",
+      "img":"https://res.cloudinary.com/dsj0x6kfo/image/upload/v1615262391/Screen_Shot_2021-03-08_at_8.57.31_PM_r7puyn.png",
+      "projectName": "Pixi",
+      "description": "Pixi brings creator support and social media functionality to the forefront! Pixi has been created as a place to share your photography with the world with the potential of selling it to other users. Pixi is to the photography world as iTunes was to the music industry!",
+      "repoLink": "https://github.com/jasmineteters/pixi",
+      "deploymentLink": "http://pixi.pics"
     }
   ]
