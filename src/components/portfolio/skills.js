@@ -9,7 +9,7 @@ function Skills() {
             My Technical Skills:
           </h1>
           <div className='flex flex-col text-left text-lg font-cabin font-thin'>
-            <li>Languages: HTML, CSS, Javascript</li>
+            <li>Languages: HTML, CSS, Javascript, Python</li>
             <li>Database Management: Mysql, Sequelize MongoDb, Mongoose</li>
 
             <li>
