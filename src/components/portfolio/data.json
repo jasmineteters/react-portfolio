@@ -31,8 +31,16 @@
       "repoLink": "https://github.com/jasmineteters/example-gym",
       "deploymentLink": "https://jasmineteters.github.io/example-gym/"
     },
-    {
+        {
       "id": "5",
+      "img": "https://res.cloudinary.com/dsj0x6kfo/image/upload/v1618981337/react_ltvhqi.png",
+      "projectName": "Monster Rolodex",
+      "description": "This was a fun project that I did following a Udemy course for mastering React.",
+      "repoLink": "https://github.com/jasmineteters/Monster-Rolodex",
+      "deploymentLink": "https://jasmineteters.github.io/Monster-Rolodex/"
+    },
+    {
+      "id": "6",
       "img":"https://res.cloudinary.com/dsj0x6kfo/image/upload/v1613263381/BikesAndBrews.png",
       "projectName": "Bikes and Brews",
       "description": "Group Project to develop a web app to source mountain bike trails, paired with a local brewery for a post-ride refreshment. Use your current location or provide your zip code. Click on the trail or brewery for additional information. Functionality made with JavaScript using API calls, HTML and Bootstrap for design.",
@@ -40,7 +48,7 @@
       "deploymentLink": "https://jasmineteters.github.io/Bikes-and-Brews/"
     },
     {
-      "id": "6",
+      "id": "7",
       "img":"https://res.cloudinary.com/dsj0x6kfo/image/upload/v1613263645/CharacterSheetGenerator.png",
       "projectName": "Character Sheet Generator",
       "description": "Developed a mobile-first, user friendly application to build character sheets for Table Top Role Player Games (TTRPG), filling a void that is prevalent within the industry. My responsibilities for this project include designing and creating the entire front end, including 105 user inputted fields, with unique id’s for the back-end to save to the database",
@@ -48,11 +56,12 @@
       "deploymentLink": "https://charactersheet-generator.herokuapp.com/"
     },
     {
-      "id": "7",
+      "id": "8",
       "img":"https://res.cloudinary.com/dsj0x6kfo/image/upload/v1615262391/Screen_Shot_2021-03-08_at_8.57.31_PM_r7puyn.png",
       "projectName": "Pixi",
       "description": "Pixi brings creator support and social media functionality to the forefront! Pixi has been created as a place to share your photography with the world with the potential of selling it to other users. Pixi is to the photography world as iTunes was to the music industry!",
       "repoLink": "https://github.com/jasmineteters/pixi",
       "deploymentLink": "http://pixi.pics"
     }
+
   ]
