@@ -10,7 +10,7 @@ function Skills() {
           </h1>
           <div className='flex flex-col text-left text-lg font-cabin font-thin'>
             <li>Languages: HTML, CSS, Javascript, Python</li>
-            <li>Database Management: Mysql, Sequelize MongoDb, Mongoose</li>
+            <li>Database Management: Mysql, Sequelize, MongoDb, Mongoose</li>
 
             <li>
               Libraries / Frameworks: jQuery, React.js, Express.js, TailwindCSS,
@@ -18,8 +18,8 @@ function Skills() {
             </li>
 
             <li>
-              Other Technologies: Node.js, Handlebars, Git, Heroku, AJAX,
-              IndexedDB API
+              Other Technologies and Competencies: Node.js, Handlebars, Git, Heroku, AJAX,
+              IndexedDB API, Mirth Connect, HL7, Jira, Rundeck, Salesforce
             </li>
           </div>
         </div>
